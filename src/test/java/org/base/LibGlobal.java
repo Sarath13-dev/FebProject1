@@ -42,6 +42,7 @@ public class LibGlobal {
 		
 		public static void launchUrl(String url) {
 			driver.get(url);
+			System.out.println("testing git");
 		}
 		
 		public static void quit() {
