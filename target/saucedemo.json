@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Adding products and Validating price",
+        "description": "",
+        "id": "validation-of-prices-in-saucedemo;adding-products-and-validating-price",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10285459464,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User login to url",
+            "match": {
+              "location": "SauceStepDef.user_login_to_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 726584482,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User adds product to cart",
+            "match": {
+              "location": "SauceStepDef.user_adds_product_to_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 399282701,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User fills the personal information",
+            "match": {
+              "location": "SauceStepDef.user_fills_the_personal_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertFalse(Assert.java:64)\r\n\tat org.junit.Assert.assertFalse(Assert.java:74)\r\n\tat org.steps.SauceStepDef.user_validates_the_total_amoun(SauceStepDef.java:66)\r\n\tat ✽.User validates the total amoun(C:/Users/RAM SARATH KUMAR/eclipse-workspace/SauceDemo/src/test/resources/SauceDemo/SauceDemo.feature:6)\r\n",
+              "duration": 41965990,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "User validates the total amoun",
+            "match": {
+              "location": "SauceStepDef.user_validates_the_total_amoun()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validation of Prices in SauceDemo",
+    "description": "",
+    "id": "validation-of-prices-in-saucedemo",
+    "keyword": "Feature",
+    "uri": "C:/Users/RAM SARATH KUMAR/eclipse-workspace/SauceDemo/src/test/resources/SauceDemo/SauceDemo.feature",
+    "tags": []
+  }
+]
