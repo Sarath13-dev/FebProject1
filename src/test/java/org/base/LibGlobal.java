@@ -47,6 +47,7 @@ public class LibGlobal {
 		
 		public static void quit() {
 			driver.quit();
+			System.out.println("work done by A -perf");
 
 		}
 		
