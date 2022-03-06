@@ -47,7 +47,7 @@ public class LibGlobal {
 		
 		public static void quit() {
 			driver.quit();
-
+			System.out.println("work done by B perf1");
 		}
 		
 		public static void click(WebElement element) {
